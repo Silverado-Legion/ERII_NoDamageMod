@@ -8,4 +8,4 @@ Gameplay mods change, expand, remove, or add core gameplay elements. Effectively
 More extensive details on building from source will be issued later. However, this is a standard .NET project setup for Visual Studio. It uses the official BepInEx 6.0 template, and adds the NuGet package for HarmonyX, and requires manual referencing of the game's Assembly-CSharp.dll, which BepInEx 6.0 automatically decompiles and places in /BepInEx/Interop. This official template uses .NET Standard 2.1, which is compatibile with .NET Standard 2.0 (the actual version likely used by the game). It is likely fine to develop a mod in any version of .NET Core or Framework compatible with .NET Standard 2.1, but beware issues that may arrise.
 
 ## Licensing
-This project is protected under the BSD-3 Copyleft license. Effectively: Feel free to edit this mod as you wish. If you redistribute it, reproduce the LICENSE file with it, and give credit to me.
+Copyright (c) 2025 Silverado-Legion, BSD-3-Clause
